@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    
+  </head>
+  <body>
+    <nav>
+      <div id="navbar" class="nvv">
+        <div class="left-side">
+          <ul class="ul text-white">
+            <li onclick="searchInputs() , openClose()" class="nav-link">Search</li>
+            <li onclick="getCategory(), openClose()" class="nav-link">Categories</li>
+            <li onclick="getArea(), openClose()" class="nav-link">Area</li>
+            <li onclick="getIngredients(), openClose()" class="nav-link">Ingredients</li>
+            <li onclick="contact(), openClose()" class="nav-link">Contact Us</li>
+          </ul>
+          <div class="left-end text-white mb-3">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-solid fa-globe"></i>
+            <p>Copyright Â© 2019 All Rights Reserved.</p>
+          </div>
+        </div>
+        <div class="right-side text-center">
+          <div class="image">
+            <img src="imgs/logo.png" class="w-75" alt="" />
+          </div>
+          <i class="open fa-solid fa-bars fs-2"></i>
+          <div class="right-end fs-5 mb-3">
+            <i class="fa-solid fa-globe d-block"></i>
+            <i class="fa-solid fa-share-nodes"></i>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="container" id="search-content">  
+   
+    </div>
+    <div class="container my-4 pt-4">
+        <div class="row g-4" id="main-element"></div>
+    </div>
+  
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
